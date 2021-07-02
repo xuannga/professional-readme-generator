@@ -26,9 +26,10 @@ const promptUser = () => {
             message: 'Provide instructions and examples for use.',
         },
         {
-            type: 'input',
+            type: 'list',
             name: 'license',
             message: 'List your licenses',
+            choices: ["MIT", "APACHE2.0", "Boost1.0", "GPL3.0", "BSD2" ,"BSD3", "None"]
         },
         {
             type: 'input',
@@ -38,12 +39,8 @@ const promptUser = () => {
         {
             type: 'input',
             name: 'tests',
-            message: 'Go the extra mile and write tests for your application. Then provide examples on how to run them here.',
-        },
-        {
-            type: 'input',
-            name: 'questions',
-            message: 'How to reach you',
+            message: 'What command is used to run the tests?',
+            default: "npm test"
         },
     ]).then((data) => {
         const markDown = `
@@ -60,22 +57,28 @@ ${data.description}
 - [Tests](#tests)
 
 ## Installation
+${data.installation}
 
 ## Usage
+${data.usage}
 
 ## License
+${data.license}
 
 ## Credit
+${data.credit}
 
-## Tests`;
+## Tests
+${data.tests}
+`;
 
-        fs.writeFile('userReadMe.md', markDown, function (err) {
-            if(err) {
-                return console.log(err);
-            }
-            console.log('Success!');
-        })
+    fs.writeFile('userReadMe.md', markDown, function (err) {
+        if(err) {
+            return console.log(err);
+        }
+        console.log('Success!');
     })
+})
 };
 
 
