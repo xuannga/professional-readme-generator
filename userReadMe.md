@@ -1,9 +1,9 @@
 
-## adf
+## Professional Readme generator
 
 
 ## Description
-ga
+This page is help user quickly create a professional readme.md
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,17 +15,17 @@ ga
 - [Questions](#questions)
 
 ## Installation
-adf
+to install download the code first
 
 ## Usage
-adsf
+see image
 
 
 ## License
 None
 
 ## Contributions
-adf
+Xuannga Nguyen
 
 ## Tests
 node index.js
@@ -33,7 +33,7 @@ node index.js
 ## Questions
 
 Github account
-[asdf](https://github.com/asdf/)
+[xuannga](https://github.com/xuannga/)
 
 Email
-If you have questions, you can reach me at adfadf@gmail.com.
+If you have questions, you can reach me at nguyenx206@gmail.com.
