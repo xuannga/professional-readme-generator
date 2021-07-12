@@ -10,4 +10,4 @@ https://xuannga.github.io/professional-readme-generator/
 ### Walkthrough Video: https://drive.google.com/file/d/1MN1kw_Rab5nQfaoSHFl2HnYd6sQn7ZmB/view
 
 ## Screenshots
-![screenshot](.images/screenshot1.jpg)
+![screenshot](images/screenshot1.JPG)
