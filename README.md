@@ -12,7 +12,7 @@ This project has taught me how to use node, install npm (though I still have pro
 - Users need to provide the title of the project
 - Users can describe the project
 - Users will need to provide license if there's any
-- Users will be asked if there's any dependencies
+- Users will be asked if there's any contributors
 - Users will be asked if there's a test to run
 - Users need to provide the usage of the project
 - Last but not least, list the contributors
