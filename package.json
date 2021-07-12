@@ -1,14 +1,25 @@
 {
-  "name": "static-site",
-  "version": "1.0.0",
+  "dependencies": {
+    "init": "^0.1.2",
+    "inquirer": "^8.1.1"
+  },
+  "name": "professional-readme-generator",
   "description": "",
+  "version": "1.0.0",
   "main": "index.js",
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuannga/professional-readme-generator.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "inquirer": "^6.5.2"
-  }
+  "bugs": {
+    "url": "https://github.com/xuannga/professional-readme-generator/issues"
+  },
+  "homepage": "https://github.com/xuannga/professional-readme-generator#readme"
 }
