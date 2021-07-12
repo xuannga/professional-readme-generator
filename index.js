@@ -19,18 +19,20 @@ const promptUser = [{
     {
         type: 'input',
         name: 'installation',
-        message: 'What are the steps required to install your project',
+        message: 'What is required to install your project',
+        default: 'npm i',
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'Provide instructions and examples for use.',
+        message: 'What is the usage?',
+
     },
     {
-        type: 'list',
+        type: 'input',
         name: 'license',
-        message: 'List your licenses',
-        choices: ["MIT", "None"]
+        message: 'List your licenses, if any',
+        default: 'None',
     },
     {
         type: 'input',
@@ -66,7 +68,7 @@ function init() {
     inquirer.prompt(promptUser)
         .then((inquirerAnswers) => {
             console.log("Generating...");
-            writeToFile("userReadMe.md", generateMarkdown({...inquirerAnswers }));
+            writeToFile("sampleReadMe.md", generateMarkdown({...inquirerAnswers }));
         })
 }
 

@@ -1,9 +1,9 @@
 
-## Professional Readme generator
+## Professional README generator
 
 
 ## Description
-This page is help user quickly create a professional readme.md
+This is to help user's create a quick README.md file
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,17 +15,17 @@ This page is help user quickly create a professional readme.md
 - [Questions](#questions)
 
 ## Installation
-to install download the code first
+npm i
 
 ## Usage
-see image
+To create a readme.md file
 
 
 ## License
 None
 
 ## Contributions
-Xuannga Nguyen
+Xuannga
 
 ## Tests
 node index.js
